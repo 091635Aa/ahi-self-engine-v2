@@ -1,0 +1,11 @@
+# AHI 自主智能引擎 · V2 系依赖（Python 3.10.11，CPU 即可复现核心判据）
+
+# 数值底座（必需）
+numpy
+
+# GPU 加速路径（可选；无 GPU 时引擎自动降级到 CPU
+#   ——V2 判据设计为确定性可复现，CPU 亦可通过，只是更慢）
+torch
+
+# 统计/评测（验收脚本 verify_all.py 可选引用）
+scikit-learn

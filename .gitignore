@@ -1,0 +1,35 @@
+# ── Python 环境与缓存 ──
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── 模型权重与数值数据（执行为命令时按需生成，不入库）──
+*.pt
+*.pth
+*.bin
+*.npz
+*.npy
+*.gguf
+*.safetensors
+*.onnx
+
+# ── 大文件兜底 ──
+*.7z
+*.zip
+*.tar
+*.tar.gz
+
+# ── 密钥 ──
+.env
+*.env
+
+# ── 实验运行痕迹（精选版仓库不携带不可复现的运行数据）──
+*_runs/
+runs/
+*.jsonl
+live_state.pkl
+backup_*/
