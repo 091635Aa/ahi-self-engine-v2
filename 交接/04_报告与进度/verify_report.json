@@ -1,0 +1,543 @@
+{
+  "P1": {
+    "all_passed": false,
+    "per_seed": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "worst": "干预效应 4.92 / 对照 0.00 / ECE 0.0408 ｜ v2：可失败 2/2 通过；有判别力 1；Nec=1 者 2；实测 DP 1 条（≥5: 1）；完整达标 1 条（期望校准误差 ECE）；剔除恒真/控制 1 条（阴性对照效应量（消融读出层 conf））",
+    "passed_falsifiable": [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "v2": {
+      "n_total": 3,
+      "n_falsifiable": 2,
+      "n_falsifiable_passed": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "n_power": 1,
+      "n_nec": 2,
+      "n_complete": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "complete": [
+        "期望校准误差 ECE"
+      ],
+      "crit_all": {
+        "干预 s 的效应量": {
+          "passed": true,
+          "dp": null,
+          "nec": 1
+        },
+        "阴性对照效应量（消融读出层 conf）": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "期望校准误差 ECE": {
+          "passed": false,
+          "dp": 24.134361291777367,
+          "nec": 1
+        }
+      },
+      "excluded": [
+        "阴性对照效应量（消融读出层 conf）"
+      ]
+    }
+  },
+  "P2": {
+    "all_passed": true,
+    "per_seed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "worst": "接口齐备；切断偏离 5.610（诚实边界：本验证不证明仿真湿件具有体验） ｜ v2：可失败 1/1 通过；有判别力 0；Nec=1 者 0；实测 DP 0 条（≥5: 0）；完整达标 0 条；剔除恒真/控制 2 条（接口方法完整性、湿件存活）",
+    "passed_falsifiable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "v2": {
+      "n_total": 3,
+      "n_falsifiable": 1,
+      "n_falsifiable_passed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "n_power": 0,
+      "n_nec": 0,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "接口方法完整性": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "湿件存活": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "切断湿件后的行为偏离": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        }
+      },
+      "excluded": [
+        "接口方法完整性",
+        "湿件存活"
+      ]
+    }
+  },
+  "P3": {
+    "all_passed": false,
+    "per_seed": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "worst": "span=0.122 G2a=0.772 G2b_diff=+1.787 G1b=5.81 G3_JS=2.136 G4=0.894 G5=4/4 G6=0.0256 ｜ v2：可失败 8/8 通过；有判别力 4；Nec=1 者 0；实测 DP 0 条（≥5: 0）；完整达标 0 条",
+    "passed_falsifiable": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "v2": {
+      "n_total": 8,
+      "n_falsifiable": 8,
+      "n_falsifiable_passed": [
+        8,
+        7,
+        8,
+        8,
+        8,
+        7
+      ],
+      "n_power": 4,
+      "n_nec": 0,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "G1a 一阶注意动态范围/量程": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G2a 图式是注意的有效模型": {
+          "passed": false,
+          "dp": null,
+          "nec": null
+        },
+        "G2b 图式特异于注意": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G1b 干预 g 的效应量": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G3 语义交换后注意的 JS 散度": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G4 外向迁移 R2": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G5 广播广度（受影响下游数）": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "G6 报告-图式条件互信息": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        }
+      },
+      "excluded": []
+    }
+  },
+  "P4": {
+    "all_passed": false,
+    "per_seed": [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    "worst": "Phi*=11.2705(代理,非Φ) O-info差=0.346 zz差=-0.340 ｜ v2：可失败 2/3 通过；有判别力 2；Nec=1 者 0；实测 DP 0 条（≥5: 0）；完整达标 0 条",
+    "passed_falsifiable": [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    "v2": {
+      "n_total": 3,
+      "n_falsifiable": 3,
+      "n_falsifiable_passed": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        2
+      ],
+      "n_power": 2,
+      "n_nec": 0,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "整合度代理 Phi*（total-correlation）": {
+          "passed": false,
+          "dp": null,
+          "nec": null
+        },
+        "平均绝对跨区相关": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "PCI 扰动响应复杂度 主体 vs 对照": {
+          "passed": false,
+          "dp": null,
+          "nec": null
+        }
+      },
+      "excluded": []
+    }
+  },
+  "P5": {
+    "all_passed": true,
+    "per_seed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "worst": "F_max=0.410 暗室上升=+0.1380 dL=1.3583 ｜ v2：可失败 3/3 通过；有判别力 3；Nec=1 者 0；实测 DP 0 条（≥5: 0）；完整达标 0 条；剔除恒真/控制 1 条（无外部奖励项（代码审计））",
+    "passed_falsifiable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "v2": {
+      "n_total": 4,
+      "n_falsifiable": 3,
+      "n_falsifiable_passed": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "n_power": 3,
+      "n_nec": 0,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "自由能有界": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "反暗室：恒定输入下 F 的上升量": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "调质核团对输入统计量的响应": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "无外部奖励项（代码审计）": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        }
+      },
+      "excluded": [
+        "无外部奖励项（代码审计）"
+      ]
+    }
+  },
+  "P6": {
+    "all_passed": false,
+    "per_seed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "worst": "kappa=0.600 迟滞=1.000 MI=+0.0180 跨分支R2=-101.198 吸引子比=5.0× ｜ v2：可失败 3/3 通过；有判别力 1；Nec=1 者 1；实测 DP 1 条（≥5: 0）；完整达标 0 条；剔除恒真/控制 3 条（kappa = ||J||_2、不动点 <=12 NFE 收敛率、迟滞率 H）",
+    "passed_falsifiable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "v2": {
+      "n_total": 6,
+      "n_falsifiable": 3,
+      "n_falsifiable_passed": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2
+      ],
+      "n_power": 1,
+      "n_nec": 1,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "kappa = ||J||_2": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "不动点 <=12 NFE 收敛率": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "迟滞率 H": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "分支互信息 I(m*;x_{t+1}|x_t)": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "跨分支前馈神谕 R2": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        },
+        "慢变量吸引子数（必要型 Nec=1）": {
+          "passed": false,
+          "dp": -0.98,
+          "nec": 1
+        }
+      },
+      "excluded": [
+        "kappa = ||J||_2",
+        "不动点 <=12 NFE 收敛率",
+        "迟滞率 H"
+      ]
+    }
+  },
+  "P7": {
+    "all_passed": true,
+    "per_seed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "worst": "A_int=1.027（自证 N1=-0.005/N2=-0.006/N3=0.852） 效应量=3.58 饱和(q)=0.0000 ｜ v2：可失败 2/2 通过；有判别力 2；Nec=1 者 2；实测 DP 0 条（≥5: 0）；完整达标 0 条",
+    "passed_falsifiable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "v2": {
+      "n_total": 2,
+      "n_falsifiable": 2,
+      "n_falsifiable_passed": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_power": 2,
+      "n_nec": 2,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "内感受自主性 A_int（E1 X1）": {
+          "passed": true,
+          "dp": null,
+          "nec": 1
+        },
+        "q 的因果载荷（E1 X2）": {
+          "passed": true,
+          "dp": null,
+          "nec": 1
+        }
+      },
+      "excluded": []
+    }
+  },
+  "P8": {
+    "all_passed": true,
+    "per_seed": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "worst": "残差AUC=1.0000（sham 0.067）｜自消除率=0.9886（sham -0.368）｜守卫=1.488 ｜ v2：可失败 3/3 通过；有判别力 3；Nec=1 者 2；实测 DP 0 条（≥5: 0）；完整达标 0 条",
+    "passed_falsifiable": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "v2": {
+      "n_total": 3,
+      "n_falsifiable": 3,
+      "n_falsifiable_passed": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "n_power": 3,
+      "n_nec": 2,
+      "n_complete": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete": [],
+      "crit_all": {
+        "efference 残差可分性（E1 X4a）": {
+          "passed": true,
+          "dp": null,
+          "nec": 1
+        },
+        "信号级自生成分量消除率（E1 X4b）": {
+          "passed": true,
+          "dp": null,
+          "nec": 1
+        },
+        "陷阱守卫：世界段残差未被抑制（E1 §6）": {
+          "passed": true,
+          "dp": null,
+          "nec": null
+        }
+      },
+      "excluded": []
+    }
+  }
+}
